@@ -1,0 +1,39 @@
+namespace Oscar_Esteban_Sánchez_Leyva
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+            string nombre = txtNombre.Text;
+            MessageBox.Show("Oscar Esteban Sánchez Leyva");
+        }
+
+        private void lblEdad_Click(object sender, EventArgs e)
+        {
+            string edad = txtEdad.Text;
+            MessageBox.Show("31 Años");
+        }
+
+        private void lblFecha_Click(object sender, EventArgs e)
+        {
+            string nombre = txtFecha.Text;
+            MessageBox.Show("13/12/1993");
+        }
+
+        private void lblCarrera_Click(object sender, EventArgs e)
+        {
+            string nombre = txtCarrera.Text;
+            MessageBox.Show("Ingeniería en Desarrollo de Software");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Por formar parte de UMI/Universidad Coppel. Bienvenido a la carrera de Ingeniería en Desarrollo de Sotfware.");
+        }
+    }
+}
